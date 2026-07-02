@@ -31,7 +31,7 @@ bayes = load('gender_prediction.joblib')
 # Streamlit app
 def main():
     st.title('Gender Prediction App')
-    st.write('Enter a name to predict its gender.')
+    st.write('Enter aa name to predict its gender.')
 
     # Input for name
     input_name = st.text_input('Name:')
